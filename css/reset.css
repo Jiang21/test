@@ -166,7 +166,7 @@ body{font-size:12px;font-family: '微软雅黑';}
 
 .tab1 { border-bottom:1px solid #dbdbdb;}
 .tab1 ul { margin-bottom: -1px; overflow: hidden; }
-.tab1 li { float: left; position: relative; text-align: center; color:#888888; border:1px solid #dadada; border-radius: 4px 4px 0 0; margin-right: -1px;}
+.tab1 li { float: left; position: relative; text-align: center; color:#888888; border:1px solid #dadada; border-radius: 4px 4px 0 0; margin-right: -1px; cursor: pointer;}
 .tab1 .active { border-bottom: 1px solid #ffffff; background:#fff; color:#454545; font-weight: 700; }
 .tab1 a { position: absolute; top: 10px; right: 12px;}
 
@@ -181,7 +181,7 @@ body{font-size:12px;font-family: '微软雅黑';}
 
 .list_section {}
 .list_section li { height: 27px; border-top: 1px dotted #dadada; line-height: 27px; background: url(../img/dot.gif) no-repeat 5px center; }
-.list_section a { color: #333; display: inline-block; text-indent: 14px; }
+.list_section a { color: #333; display: inline-block; text-indent: 14px;}
 .list_section a:hover { text-decoration: underline; }
 .list_section a span { color: #c3c3c3; }
 .list_section li em { color: #c75d61; }
@@ -237,14 +237,14 @@ body{font-size:12px;font-family: '微软雅黑';}
 .help_contact { padding: 11px 4px 0 4px;}
 .wrap_help p{ text-indent: 25px; line-height: 18px;}
 .wrap_help .contact { background: url(../img/help.gif) no-repeat 0 14px; height: 43px; line-height: 43px;}
-.wrap_help p span { color: #b80000; margin-right: 44px; font-weight: 700; font-size: 14px; }
+.wrap_help p span { color: #b80000; margin-right: 43px; font-weight: 700; font-size: 14px; }
 .wrap_help p a { display:inline-block;color:#4e4e4e; background: url(../img/help.gif) no-repeat 0px -30px; text-indent: 25px; }
 .wrap_help p a:hover { text-decoration: underline;}
 
 .help_list { border-top: 1px solid #dadada; padding: 10px 0 0 0; }
 .help_list dl {width: 132px; padding: 0 6px; line-height: 18px;}
-.help_list dl:nth-of-type(1) { float: left; }
-.help_list dl:nth-of-type(2) { float: right; }
+.help_list .help_left { float: left; }
+.help_list .help_right { float: right; }
 .help_list dt { color: #292929; font-weight: 700; }
 .help_list dd { background: url(../img/dot.gif) no-repeat 0 center; text-indent: 1em; }
 .help_list dd a { color:#292929;}
